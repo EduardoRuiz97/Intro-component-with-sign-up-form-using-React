@@ -1,0 +1,22 @@
+main {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+@media screen and (min-width: 777px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  main {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5em;
+  }
+}

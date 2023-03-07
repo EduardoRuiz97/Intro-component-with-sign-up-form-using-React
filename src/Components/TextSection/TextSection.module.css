@@ -1,0 +1,21 @@
+.text-section {
+  text-align: center;
+  color: white;
+}
+
+.text-section h1 {
+  font-size: 1.85em;
+  margin-bottom: 1em;
+}
+
+.text-section p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 996px) {
+  .text-section {
+    width: 100%;
+    text-align: left;
+  }
+}
